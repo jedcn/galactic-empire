@@ -4,10 +4,10 @@ This directory contains utilities for module registration and activation for the
 
 ## Files
 
-- **REGISTER.CPP** - Main registration utility source code
-- **REG2.CPP** - Alternative registration algorithm (version 2)
-- **REG3.CPP** - Alternative registration algorithm (version 3)
-- **README.NOW** - Original readme file with usage instructions
+- [**REGISTER.CPP**](REGISTER.CPP) - Main registration utility source code
+- [**REG2.CPP**](REG2.CPP) - Alternative registration algorithm (version 2)
+- [**REG3.CPP**](REG3.CPP) - Alternative registration algorithm (version 3)
+- [**README.NOW**](README.NOW) - Original readme file with usage instructions
 
 ## Purpose
 

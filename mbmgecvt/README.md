@@ -4,10 +4,10 @@ This directory contains a utility for converting data files for the Galactic Emp
 
 ## Files
 
-- **MBMGECVT.C** - Main source code for the conversion utility
-- **MBMGECVT.H** - Header file containing data structures and definitions
-- **MBMGECVT.HP** - Additional header file for platform-specific definitions
-- **MBMGECVT.LNK** - Linker file for building the executable
+- [**MBMGECVT.C**](MBMGECVT.C) - Main source code for the conversion utility
+- [**MBMGECVT.H**](MBMGECVT.H) - Header file containing data structures and definitions
+- [**MBMGECVT.HP**](MBMGECVT.HP) - Additional header file for platform-specific definitions
+- [**MBMGECVT.LNK**](MBMGECVT.LNK) - Linker file for building the executable
 
 ## Purpose
 
