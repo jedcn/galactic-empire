@@ -21,6 +21,11 @@
             <version>2.11.0</version>
         </dependency>
         <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
@@ -45,7 +50,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.jedcn.analyzer.Main</mainClass>
+                            <mainClass>com.jedcn.analyzer.MessageFileConverter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
