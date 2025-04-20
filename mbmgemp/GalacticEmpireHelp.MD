@@ -401,6 +401,7 @@ Scores are based upon the size of your empire and the number and class
 of kills you have accumulated is ship to ship combat.  Each class of
 ship is worth a different number of points as detailed below;
 
+```
 Interceptor       10
 Light Freighter   25
 Heavy Freighter   75
@@ -411,6 +412,7 @@ Frigate          300
 Dreadnought      500
 Cybertron         75
 Cyberquad        200
+```
 
 Additionally you are awarded as a bonus, a small percentage of the killed
 players score on top of the ship points.
@@ -435,10 +437,12 @@ form of one way wormhole has been speculated to exist.
 
 
 ## Topic: The ADMIN command
+
 The ADMIN command permits you to claim and administer a planet once
 in orbit. If you already own this planet then you can perform several
 planetary maintenance functions from the Planer Administration Menu.
 
+```
 Planet Administration Menu
 -----------------------------------
 1 - Get accounting report
@@ -449,14 +453,16 @@ Planet Administration Menu
 5 - Adjust Tax Rate
 6 - Set Trade Password
 x - Exit to command mode
-
+```
 
 ## Topic: The abandon command
 The abandon command will release ownership of a planet previously
 claimed. You must be in orbit around the planet to be abandoned.
 Issue the abandon command as follows;
 
+```
    abandon
+```
 
 simple enough.
 
@@ -468,6 +474,7 @@ the destruction of your ship.
 The Attack command permits you to start an attack on a planet with
 either troops or fighters. Issue the Attack command as follows;
 
+```
   attack [<number>] [tro/fig]
 
   number = number of troops or fighters to attack with;
@@ -477,12 +484,13 @@ either troops or fighters. Issue the Attack command as follows;
 
   examples: attack 100 tro
             attack 30 fighters
-
+```
 
 ## Topic: The Buy command
 The Buy command will permit you to purchase goods from one of your own
 planets or another players planet. Issue the Buy command as follows;
 
+```
 buy [<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam/zip/gol]
                [<password>]
 
@@ -508,7 +516,7 @@ examples:
   buy 1000 men
   buy 3 ion
   buy 500 foo drowssap
-
+```
 
 ## Topic: The Cloak command
 
@@ -519,11 +527,12 @@ takes a few seconds to charge once the command is issued.
 
 Issue the Cloak command as follows;
 
+```
    cloak [ON/OFF]
 
    Example:  Cloak on
                   Cloak off
-
+```
 
 ## Topic: The CLS function
 
@@ -565,6 +574,7 @@ Hyper-Phaser however can be deadly. The Hyper-Phaser Beam is very narrow
 but very powerful and can destroy another ship with only a few well placed
 shots. Issue the Hyper-Phaser command as follows;
 
+```
    phaser [<direction>]
 
   direction = the heading to fire the phasers at, usually the same as the
@@ -576,12 +586,14 @@ shots. Issue the Hyper-Phaser command as follows;
 
   Note: The Fire Control System automatically switches to Hyper-Phasers
         when in hyperspace.
+```
 
 ## Topic: The Impulse command
 
 The Impulse command directs your impulse (sub-light) engines and
 sets your course and speed. Issue the Impulse command as follows;
 
+```
   impulse [<speed>] [<heading>]
 
   speed   = the impulse speed between 0 and 99 (99 is .99 light speed)
@@ -593,7 +605,7 @@ sets your course and speed. Issue the Impulse command as follows;
                            ship 5 degrees to the starboard (right).
             impulse 10 355 would alter the speed to impulse 10 and turn the
                            ship 5 degrees to the port (left).
-
+```
 
 ## Topic: The jammer command
 
@@ -602,7 +614,9 @@ disrupts all scanner systems on all ships within range of the device, yours
 included. It is useful for covering an escape or distracting an opponent.
 Issue the jammer command as follows;
 
+```
   jammer
+```
 
 Simple enough!
 
@@ -621,6 +635,7 @@ change.
 Commands like MISSILE and TORPEDO can be then be used with the Lock option
 to fire on the ship you have locked onto. Issue the Lock command as follows;
 
+```
    lock [<ship letter designate>]
    -or-
    lock
@@ -629,6 +644,7 @@ to fire on the ship you have locked onto. Issue the Lock command as follows;
              lock B     would lock onto the second closest ship.
 
              lock       would cause the lock to be released.
+```
 
 Note: Once a ship is killed the lock is released automatically.
 
@@ -641,7 +657,6 @@ charge you a nominal fee of 200c's at your own planet and 2500c's at Zygor.
 
 Leaving orbit early will cease all repairs on the ship.
 
-
 ## Topic: The MINE command
 
 The MINE command causes a neutron mine to be deposited at your
@@ -651,13 +666,14 @@ by another ship. Beware that they are very powerful and you can also be
 damaged by them if you don't get far enough away. Issue the MINE command
 as follows;
 
+```
   mine [<time>]
 
   time = the time till detonation in centocks (approx 5 seconds). This can
          be set from 1 to 50.
 
   Example:  mine 10    will deposit a mine to detonate in 10 centocks
-
+```
 
 ## Topic: The Missile command
 
@@ -666,6 +682,7 @@ a given ship with a given charge. This missile guidance system will attempt
 to lock on the ship prior to firing the missile. If a lock is made the missile
 is launched. Issue the Missile command as follows;
 
+```
   missile [<ship letter>/@] [<energy>]
 
   ship letter = the ship you are firing upon
@@ -682,17 +699,20 @@ is launched. Issue the Missile command as follows;
 
   note: the energy imparted to the missile must come from your charged
         neutron flux pile and will drain the pile by that amount.
+```
 
 ## Topic: The Navigate command
 
 Please issue the Navigate command as follows;
 
+```
   navigate [sector]
 
   sector number = the sector number you wish to navigate to.
 
 
   examples: navigate sector 0 0   give a bearing and distance to sector 0 0.
+```
 
 ## Topic: The New command
 
@@ -700,6 +720,7 @@ The New command permits you to purchase from the ship yards at
 Zygor one of several types of shields, phaser systems, or even a new ship.
 Issue the New command as follows;
 
+```
   New [shield/ship/phaser] [<type>]
 
   type   = the class type of the shield, phaser, or ship you wish to purchase.
@@ -719,6 +740,7 @@ Issue the New command as follows;
   note: you must be orbiting around Zygor in Sector 0 0 to issue this
         command. A complete list of ship classes and prices can be obtained
         from the HELP CLASS command.
+```
 
   For pricing on ships type HELP CLASS, for phasers and shields type
   HELP NEWPRICE.
@@ -726,6 +748,7 @@ Issue the New command as follows;
 ## Topic: The prices for Phasers and Shields
 The prices for Phasers and Shields are as follows;
 
+```
 ---- Shields -----             ---- Phasers ----
 Mark-1......    5k             Mark-1......   5k
 Mark-2......   10k             Mark-2......   10k
@@ -746,11 +769,13 @@ Mark-16..... 50.0m             Mark-16..... 30.0m
 Mark-17..... 80.0m             Mark-17..... 60.0m
 Mark-18.....120.0m             Mark-18.....100.0m
 Mark-19.....250.0m             Mark-19.....200.0m
+```
 
 ## Topic: The Orbit command
 The Orbit command instructs your ship to enter into orbit around
 a given planet. Issue the Orbit command as follows;
 
+```
   orbit [<planet #>]
 
   planet # = the planet you are wishing to orbit.
@@ -758,6 +783,7 @@ a given planet. Issue the Orbit command as follows;
   NOTE: YOU MUST BE 250 or closer to orbit a planet!
 
   example:  orbit 2
+```
 
 ## Topic: The Phaser command
 The Phaser command directs your ships phasers to fire in a given
@@ -765,6 +791,7 @@ direction with a given beam spread. The more narrow the beam the stronger the
 hit, but the more difficult it is to get a hit.
 Issue the Phaser command as follows;
 
+```
   phaser [<direction>] [<spread>]
 
   direction = the heading to fire the phasers at, usually the same as the
@@ -776,6 +803,7 @@ Issue the Phaser command as follows;
 
   examples: phaser 4 1   fire 4 degrees off starboard, focus 1.
             phaser 180 5 fire directly behind focus 5.
+```
 
 ## Topic: The Planet command
 Produces a list of the planets registered to you. This list is only
@@ -787,6 +815,7 @@ appear in the list until 3AM tomorrow.
 The Price command permits you to get a price for a quantity of goods
 prior to actually purchasing them. Issue the Price command as follows;
 
+```
   price [<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam/zip/gol]
 
   men  = price men
@@ -807,34 +836,38 @@ examples:
   price 1000 men
   price 3 ion
   price 500 foo
-
+```
 
 ## Topic: The Rename command
 The Rename command will change the name assigned to your ship. Issue
 the Rename command as follows;
 
+```
   rename <new ship name>
-
+```
 
 ## Topic: The Report command
 The Report command gives you status information on navigation, ships
 systems, inventory, and accounting. Issue the Report command as follows;
 
+```
   report [nav/sys/inv/acc]
 
   examples: report nav    - produces a navigational report
             report sys    - produces a systems report
             report inv    - produces an inventory report
             report acc    - produces an accounting report
-
+```
 
 ## Topic: The Roster command
 The Roster command will display the Top Players Roster.
 
+```
   roster [all]
 
   examples: roster        - display the top players
             roster all    - display all players
+```
 
 ## Topic: The Rotate command
 The Rotate command will cause to directional thrusters to rotate the
@@ -842,6 +875,7 @@ ship a specified number of degrees. The ship must be stationary first. The ship
 will automatically turn in the direction which causes the shortest arc to
 arrive at the given heading. Issue the Rotate command as follows;
 
+```
   rotate [<heading>] or
   rotate [@<abosolute heading>]
 
@@ -852,11 +886,12 @@ arrive at the given heading. Issue the Rotate command as follows;
   examples: rotate 5   would turn the ship 5 degrees to the starboard (right).
             rotate -5  would turn the ship 5 degrees to the port (left).
             rotate @5  would turn the ship to 5 degrees absolute.
-
+```
 
 ## Topic: The SET command
 The SET command lets you set user configurable options.
 
+```
   set  <option>/? [on/off]
 
   options are;
@@ -870,11 +905,13 @@ The SET command lets you set user configurable options.
   set scanhome on
   set scannames off
   set ?
+```
 
 ## Topic: The Scan command
 The Scan command permits you to direct the ships tactical scanners
 in a number of different ways. Issue the Scanner command as follows;
 
+```
   scan [se/sh/pl/ra/lo] [<ship letter>/<planet #>/<range>]
 
   se = sector scan showing the ships and planets in this sector
@@ -888,7 +925,7 @@ in a number of different ways. Issue the Scanner command as follows;
             scan pl 1
             scan ra 9
             scan lo
-
+```
   Note: See the SET command for additional configuration options for SCAN
 
 ## Topic: The Sell command
@@ -897,6 +934,7 @@ The Empire will charge a small Tranfer Tax on each transaction.
 
 Issue the Sell command as follows;
 
+```
 Sell [<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam/zip/gol]
 
 number = the number you want to sell.
@@ -919,12 +957,13 @@ examples:
   sell 1000 men
   sell 3 ion
   sell 500 foo
-
+```
 
 ## Topic: The Send command
 The Send command is the only means of communication between ships
 and team members. Please issue the Send command as follows;
 
+```
   send [<channel>] [<message>]
 
   channel  = Your communications channel A, B, or C as set by the SET command.
@@ -932,12 +971,13 @@ and team members. Please issue the Send command as follows;
 
   examples: send A Why you scum guzzler, I am gonna get you
             send C This is a warning to all ships.... I am here!!!!
-
+```
 
 ## Topic: The Freq command
 The Freq command permits you to specify the channels you want your ships
 communication system set to. Issue the Com channel set command as follows;
 
+```
   freq [<channel>] [hail/<freq>]
 
   examples: freq A 12345
@@ -948,6 +988,7 @@ communication system set to. Issue the Com channel set command as follows;
            packets and transmitted through hyperspace.
         Channel frequencies below 20000 are transmitted in the current star
            system only.
+```
 
 ## Topic: The Shield command
 
@@ -961,12 +1002,12 @@ dangerously low levels.
 NOTE: When firing a weapon with the shields up, the shields will be
 automatically lowered. They WILL NOT be automatically raised after the firing.
 
+```
   shield [up/down]
 
   examples: shield up    would raise the shields
             shield down  would lower the shields
-
-
+```
 
 ## Topic: The Torpedo command
 
@@ -975,6 +1016,7 @@ ship. This fire control system will attempt to lock on the ship prior to
 firing the torpedo. If a lock is made the torpedo is launched. Issue the
 Torpedo command as follows;
 
+```
   torpedo [<ship letter>/@]
 
   ship letter = the ship you are firing upon
@@ -982,8 +1024,7 @@ Torpedo command as follows;
 
   examples: torpedo A   would fire a torpedo at ship A.
             torpedo @   would fire at the ship you locked on with the LOCK cmd
-
-
+```
 
 ## Topic: The Transfer command
 
@@ -991,6 +1032,7 @@ The Transfer command permits you to transfer goods from your ship
 to a newly established planet, or from a planet to your ship.
 Issue the transfer command as follows;
 
+```
   transfer [up/down] [<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam]
 
   men  = transfer men
@@ -1009,11 +1051,13 @@ Issue the transfer command as follows;
 examples:
   transfer up 3 ion
   transfer down 500 foo
+```
 
 ## Topic: The Warp command
 The Warp command starts the warp drives (provided your type of ship
 has them) and directs your course and speed. Issue the Warp command as follows;
 
+```
 warp [<speed>] [<heading>]
 
 speed   = the warp speed between 0 and 50
@@ -1026,7 +1070,7 @@ warp 10 5   would alter the speed to warp 10 and turn the ship
             5 degrees to the starboard (right).
 warp 10 355 would alter the speed to warp 10 and turn the ship
             5 degrees to the port (left).
-
+```
 
 ## Topic: The ZIP command
 
@@ -1037,7 +1081,9 @@ weapon can be used to "trip" an opponents mines after he has laid them but
 before he can distance himself from them, causing the mines to do damage to
 the opponents own ship. Issue the zipper command as follows;
 
+```
   zipper
+```
 
 Easy enough!
 
@@ -1051,6 +1097,7 @@ own features and capabilities. The chart below summarizes the differences.
 ## --Class Name---     d--r--p-l-y-r-r-e-k-k-Acc-Warp-Tons----Price--Scan--Pts
 
 ## Topic: Ship Class Details
+```
 ------------------------------------------------------------------------------
 Shld - Maximum Shield type (0 = No shields available)
 Phsr - Maximum Phaser type
@@ -1068,6 +1115,7 @@ Tons - Maximum Tonnage ship can transport
 Price- Price for a ship of this class
 Scan - Maximum Scanner Range
 Pts  - Points for killing a ship in this class
+```
 
 *NOTE* For more details on a class of ship use the "HELP CLASS nn" command
 where nn is the class number from the table above.
@@ -1090,6 +1138,8 @@ started the team. This code never changes even though the team name may be
 changed.
 
 Team Founder commands are;
+
+```
    team start nnnnn ssssssssss pppppppppp <team name>
       starts a new team with code nnnnn, Founder Password ssssssssss, Member
       Password pppppppppp, and with the team name <team name>.
@@ -1103,8 +1153,11 @@ Team Founder commands are;
    team newname ssssssssss <team name>
       permits a team member with the Founder Password to change the team name
       to <team name>
+```
 
 Team Member commands are;
+
+```
    team join nnnnn pppppppppp
       permits a player to join the team nnnnn provided they have the correct
       member password pppppppppp
@@ -1114,6 +1167,7 @@ Team Member commands are;
       displays a list of the current teams and their scores.
    team members
       displays a list of the members of the players current team.
+```
 
 ## Topic: The SPY command
 
@@ -1125,7 +1179,6 @@ You can defend from spy's by having your own spys on your planets. The more
 trained spy's you have the better your chances you will catch any foreign
 spy's who sneak onto your planet.
 
-
 ## Topic: The Jettison command
 
 The Jettison command permits you to dump goods from your ship.
@@ -1133,6 +1186,7 @@ You can dump a specific number or ALL you have of a item type.
 
 Issue the jettison command as follows;
 
+```
   jettison [ALL/<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam]
 
   men  = transfer men
@@ -1151,3 +1205,4 @@ Issue the jettison command as follows;
 examples:
   jettison ALL ion
   jettison 500 foo
+```
