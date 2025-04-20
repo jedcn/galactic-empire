@@ -4,20 +4,26 @@
 
 Help is available on the following commands and topics:
 
+```
 Commands: abandon abort  admin  attack  buy  cloak  cls  decoy  destruct
           flux  freq  help  impulse  jammer  jettison  maintenance  mine
           missile  new  orbit  phaser  planet price rename  report  roster
           rotate  scan  sell  send  set  shield  spy  team  torpedo  transfer
           warp  zipper
+```
 
+```
 Topics  : battle  class  communicate  cybertron  galaxy  moving  planets
           scoring  sector  starting  strategy  wormholes
+```
 
+```
 Issue the help command as follows;
 
    help [<topic>]
 
    topic = one of the command or topic words above.
+```
 
 ## Topic: Start playing Galactic Empire
 
