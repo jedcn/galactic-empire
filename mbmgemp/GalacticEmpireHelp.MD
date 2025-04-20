@@ -1091,10 +1091,12 @@ Easy enough!
 These are the classes of ships manufactured at Zygor. Each has its
 own features and capabilities. The chart below summarizes the differences.
 
+```
                        S  P  T M D J Z M A C
                        h  h  o i e a i i t l
                        l  s  r s c m p n t o
 ## --Class Name---     d--r--p-l-y-r-r-e-k-k-Acc-Warp-Tons----Price--Scan--Pts
+```
 
 ## Topic: Ship Class Details
 ```
