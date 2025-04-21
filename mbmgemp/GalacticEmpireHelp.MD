@@ -1191,18 +1191,18 @@ Issue the jettison command as follows;
 ```
   jettison [ALL/<number>] [men/tro/mis/tor/ion/flu/foo/fig/dec/min/jam]
 
-  men  = transfer men
-  tro  = transfer troops
-  mis  = transfer missiles
-  tor  = transfer torpedoes
-  ion  = transfer ion cannons
-  flu  = transfer flux pods
-  foo  = transfer food
-  fig  = transfer fighters
-  dec  = transfer decoys
-  min  = transfer mines
-  jam  = transfer jammers
-  zip  = transfer zippers
+  men  = jettison men
+  tro  = jettison troops
+  mis  = jettison missiles
+  tor  = jettison torpedoes
+  ion  = jettison ion cannons
+  flu  = jettison flux pods
+  foo  = jettison food
+  fig  = jettison fighters
+  dec  = jettison decoys
+  min  = jettison mines
+  jam  = jettison jammers
+  zip  = jettison zippers
 
 examples:
   jettison ALL ion
