@@ -1,40 +1,57 @@
 # Commands
 
-abandon
-abort
-admin
-attack
-buy
-cloak
-cls
-decoy
-destruct
-flux
-freq
-help
-impulse
-jammer
-jettison
-maintenance
-mine
-missile
-new
-orbit
-phaser
-planet
-price
-rename
-report
-roster
-rotate
-scan
-sell
-send
-set
-shield
-spy
-team
-torpedo
-transfer
-warp
-zipper
+## Battle
+
+* cloak
+* decoy
+* jammer
+* mine
+* missile
+* phaser
+* scan
+* shield
+* torpedo
+* zipper
+
+## Communication
+
+* send
+* freq
+
+## Misc
+
+* cls
+* abort
+* destruct
+* flux
+* help
+* jettison
+* maintenance
+* new
+* rename
+* report
+
+## Movement
+
+* impulse
+* orbit
+* rotate
+* warp
+
+## Planet
+
+* abandon
+* admin
+* attack
+* buy
+* planet
+* price
+* sell
+* spy
+* transfer
+
+## Team
+
+* team
+* roster
+* set
